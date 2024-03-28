@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #6D9DC5;
+    align-items: center;
+    padding-inline-start: 12px;
+    padding-inline-end: 12px;
+}
+
+.menu-nav a {
+    justify-content: flex-end;
+    color: white;
+    font-size: 16px;
+    margin-left: 24px;
+    text-decoration: none;
+}
+
+hr {
+    margin-block-start: 0px;
+    margin-block-end: 0
+}
+
+.logo {
+    justify-content: flex-end;
+    color: white;
+    font-size: 24px;
+    align-items: center;
+}
+
+.banner {
+    display: flex;
+    background-image: url(img/bgheader.jpeg);
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.banner-content {
+    padding-left: 32px;
+    color: aliceblue;
+}
+
+.banner-content h1 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.banner-content h3 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+
+.banner button {
+    margin-top: 36px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border-color:white;
+    cursor: pointer;
+}
+
+.Packages {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.Packages-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0px 60px 40px 60px;
+    justify-content: center;
+}
+
+.Tour {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/tour.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Flight {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/flight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Hotel {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Tour-package {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/tpackage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Cruise {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/cruise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Nature {
+    font-weight: bold;
+    font-size: 26px;
+    align-content: center;
+    color: white;
+    background-image: url(img/nature.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: lighten ;
+    height: 70px;
+    width: 320px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 5px 0 grey;
+}
+
+.Country-content {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-left: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.city {
+    height: 350px;
+    width: 225px;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 12px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.city img {
+    object-fit: cover;
+    height: 250px;
+    width: 225px;
+    border-radius: 12px 12px 0 0;
+}
+
+.city div h2 {
+    font-size: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.city div button {
+    color: white;
+    padding: 4px 24px;
+    background-color: #6D9DC5;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Book-now {
+    justify-items: center;
+    align-content: center;
+    margin-top: 24px;
+    text-align: center;
+    height: 300px;
+    width: 400px;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 12px;
+    text-align: center;
+    background: whitesmoke;
+}
+
+.Book-now h3 {
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+.Book-now div button {
+    color: white;
+    padding: 12px 40px;
+    background-color: #6D9DC5;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+}
